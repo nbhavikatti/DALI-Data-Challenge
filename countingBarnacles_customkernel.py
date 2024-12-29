@@ -27,11 +27,8 @@ cv.waitKey(0)
 # Morphological kernel
 morph_kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (5, 5))
 
-# Apply MORPH_OPEN to remove noise
-morphed_open = cv.morphologyEx(edges, cv.MORPH_CLOSE, morph_kernel)
-
-# Apply MORPH_CLOSE to fill gaps after removing noise
-morphed = cv.morphologyEx(morphed_open, cv.MORPH_CLOSE, morph_kernel)
+# Apply MORPH_CLOSE to solidify potential barnacle edges after removing noise
+morphed = cv.morphologyEx(edges, cv.MORPH_CLOSE, morph_kernel)
 
 cv.imshow('morphed', morphed)
 
