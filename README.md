@@ -1,6 +1,6 @@
 This project leverages centralCrop.py to crop an image based on a central green/blue square and then countingBarnacles_circles.py to count the number of barnacles in a cropped photo (which will be outputted in the terminal). 
 
-__For centralCrop.py, the workflow is as follows:__
+## __For centralCrop.py, the workflow is as follows:__
 
 Allow the user to choose an imgName (name of the original image)
 
@@ -33,7 +33,7 @@ Then I loop through each contour in my filtered_contours list and find the one w
   
 Finally I crop the image based on the bounding box of the largestContour and write it to my images folder.
 
-##For countingBarnacles_customkernel.py, the workflow is as follows:##
+## __For countingBarnacles_customkernel.py, the workflow is as follows:__
 
 Allow the user to choose a cropped_img_name (name of the original image)
 
