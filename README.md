@@ -1,5 +1,16 @@
 This project leverages centralCrop.py to crop an image based on a central green/blue square and then countingBarnacles_circles.py to count the number of barnacles in a cropped photo (which will be outputted in the terminal). 
 
+## Files in this project
+
+centralCrop.py takes in an original image, crops it, and writes it to the images folder
+countingBarnacles_customkernel.py (my third and final attempt, see below) takes a cropped image of barnacles and outputs to the terminal an estimate for the number of barnacles
+countingBarnacles_circles.py was my first attempt and countingBarnacles_ovals.py was my second attempt (slightly more accurate than the first)
+
+The images folder contains the results of the two main code files (centralCrop.py and countingBarnacles.py) being run on all possible provided images.
+My code creates cropped images with the prefix "cropped_". It also creates masks (blue outline on black background) with prefix "mask_cropped_".
+It also creates masked images (the original image with the mask overlayed on top) with prefix "masked_cropped_".
+Note that the rest of the images (img1.png, img2.png, mask1.png, mask2.png, masked_img1.png, masked_img2.png, and unseen_img1.png were source images provided for this project by DALI).
+
 ## __For centralCrop.py, the workflow is as follows:__
 
 Allow the user to choose an imgName (name of the original image)
