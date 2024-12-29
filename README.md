@@ -9,7 +9,7 @@ countingBarnacles_circles.py was my first attempt and countingBarnacles_ovals.py
 The images folder contains the results of the two main code files (centralCrop.py and countingBarnacles.py) being run on all possible provided images.
 My code creates cropped images with the prefix "cropped_". It also creates masks (blue outline on black background) with prefix "mask_cropped_".
 It also creates masked images (the original image with the mask overlayed on top) with prefix "masked_cropped_".
-Note that the rest of the images (img1.png, img2.png, mask1.png, mask2.png, masked_img1.png, masked_img2.png, and unseen_img1.png were source images provided for this project by DALI).
+Note that the rest of the images (img1.png, img2.png, mask1.png, mask2.png, masked_img1.png, masked_img2.png, and unseen_img1.png) were source images provided for this project by DALI.
 
 ## __For centralCrop.py, the workflow is as follows:__
 
