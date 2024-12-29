@@ -41,6 +41,8 @@ __PLEASE READ ON__ (keep scrolling) for Requirements, Installation, Usage, Files
 
 These scripts will process the cropped images and provide the results.
 
+__General Note__: Please perform the above steps and then open the project in an IDE such as VSCode. Be sure to comment and uncomment all 3 options (lines of code) for imgName in centralCrop.py. Then do the same for cropped_img_name in countingBarnacles_customkernel.py!
+
 ## Files in this project
 
 centralCrop.py takes in an original image, crops it, and writes it to the images folder. 
