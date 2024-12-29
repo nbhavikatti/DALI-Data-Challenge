@@ -1,5 +1,7 @@
 This project leverages centralCrop.py to crop an image based on a central green/blue square and then countingBarnacles_circles.py to count the number of barnacles in a cropped photo (which will be outputted in the terminal). 
 
+Please read on for Requirements, Installation, Usage, Files, centralCrop.py workflow explanation, countingBarnacles_customkernel.py workflow explanation, and Conclusion: Model Performance + What I learned.
+
 ## Requirements
 - Python 3.x
 - OpenCV (`opencv-python`)
