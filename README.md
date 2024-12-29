@@ -2,8 +2,8 @@ This project leverages centralCrop.py to crop an image based on a central green/
 
 ## Files in this project
 
-centralCrop.py takes in an original image, crops it, and writes it to the images folder
-countingBarnacles_customkernel.py (my third and final attempt, see below) takes a cropped image of barnacles and outputs to the terminal an estimate for the number of barnacles
+centralCrop.py takes in an original image, crops it, and writes it to the images folder. 
+countingBarnacles_customkernel.py (my third and final attempt) takes a cropped image of barnacles and outputs to the terminal an estimate for the number of barnacles
 countingBarnacles_circles.py was my first attempt and countingBarnacles_ovals.py was my second attempt (slightly more accurate than the first)
 
 The images folder contains the results of the two main code files (centralCrop.py and countingBarnacles.py) being run on all possible provided images.
