@@ -111,4 +111,18 @@ Loop through each contour in contours:
   
 Output the number of barnacles detected to the terminal
 
-Display the masked original image on top; to see just the mask simply move the top image to the right and look to the left
+Display the masked original image on top; to see just the mask simply move the top image to the right and look to the left.
+
+## Conclusion: Model Performance + What I learned
+
+I am thrilled with the performance of my centralCrop.py script, as it works perfectly for all provided images (img1.png, img2.png, and unseen_img1.png). This one took me a long time to work through, but going through openCV documentation and learning about the fact that using adaptive thresholding would be useful to account for different lighting conditions and create a binary image helped me in coming up with this solution. I learned all about openCV in python and set up VSCode (I was used to IntelliJ for Java) and learned about pushing code to GitHub and creating a Personal Access Token. 
+
+Regarding my countingBarnacles_ files, the order in which I did them was circles, ovals, and finally customkernel. The accuracy of my code increased with each new iteration I made. For circles, I learned about the cv.HoughCircles method. For ovals, I simply applied edge detection and checked for properties of my contours. I did something similar but in a better way for my customkernel (better in that I used a Morphological kernel in the shape of an ellipse and used MORPH_CLOSE to solidify potential barnacle edges). 
+
+Regarding performance: countingBarnacles_customkernel works extremely for img1 and unseen_img1, it works a little less better for img2 and unseen_img2 (reasoning: for img2 the lighting and colors are much different and for unseen_img2 the sample size is small). I'm not sure of the exact count of barnacles, but from an ad hoc view, I believe accuracy for img 1 and unseen_img1 is > 90% and for img2 and unseen_img2 it is > 70%!
+
+In general, I learned about basic functions in openCV: cv.imshow, cv.waitKey, cv.imwrite. And I also learned and became fond of bounding boxes, which bound contours and allow you to compute very useful properties of the contours!
+
+I am excited about all I have learned about python, openCV, GitHub, and VSCode, and think this project greatly enhanced my technical skills.
+
+
