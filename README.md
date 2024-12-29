@@ -1,5 +1,44 @@
 This project leverages centralCrop.py to crop an image based on a central green/blue square and then countingBarnacles_circles.py to count the number of barnacles in a cropped photo (which will be outputted in the terminal). 
 
+## Requirements
+- Python 3.x
+- OpenCV (`opencv-python`)
+- Numpy
+
+## Installation
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/nbhavikatti/testDALI.git
+    cd testDALI
+    ```
+
+2. Install required dependencies:
+
+    ```bash
+    pip install opencv-python numpy
+    ```
+
+## Usage
+
+1. Place your images in the `images/` folder.
+2. Run the `centralCrop.py` script to crop the image:
+
+    ```bash
+    python centralCrop.py
+    ```
+
+3. After cropping, run any of the barnacle counting scripts:
+
+    ```bash
+    python countingBarnacles_circles.py
+    python countingBarnacles_ovals.py
+    python countingBarnacles_customkernel.py
+    ```
+
+These scripts will process the cropped images and provide the results.
+
 ## Files in this project
 
 centralCrop.py takes in an original image, crops it, and writes it to the images folder. 
