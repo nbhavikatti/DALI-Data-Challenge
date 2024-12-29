@@ -10,7 +10,7 @@ This project leverages centralCrop.py to crop an image based on a central green/
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/nbhavikatti/testDALI.git
+    git clone https://github.com/nbhavikatti/DALI-Data-Challenge.git
     cd testDALI
     ```
 
