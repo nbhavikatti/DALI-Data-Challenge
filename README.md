@@ -123,10 +123,10 @@ I am thrilled with the performance of my centralCrop.py script, as it works perf
 
 Regarding my countingBarnacles_ files, the order in which I did them was circles, ovals, and finally customkernel. The accuracy of my code increased with each new iteration I made. For circles, I learned about the cv.HoughCircles method. For ovals, I simply applied edge detection and checked for properties of my contours. I did something similar but in a better way for my customkernel (better in that I used a Morphological kernel in the shape of an ellipse and used MORPH_CLOSE to solidify potential barnacle edges). 
 
-Regarding performance: countingBarnacles_customkernel works extremely for img1 and unseen_img1, it works a little less better for img2 and unseen_img2 (reasoning: for img2 the lighting and colors are much different and for unseen_img2 the sample size is small). I'm not sure of the exact count of barnacles, but from an ad hoc view, I believe accuracy for img 1 and unseen_img1 is > 90% and for img2 and unseen_img2 it is > 70%!
+Regarding performance: countingBarnacles_customkernel works extremely well for img1 and unseen_img1, it works a little less better for img2 and unseen_img2 (reasoning: for img2 the lighting and colors are much different and for unseen_img2 the sample size is small). I'm not sure of the exact count of barnacles, but from an ad hoc view, I believe accuracy for img 1 and unseen_img1 is > 90% and for img2 and unseen_img2 it is > 70%!
 
-In general, I learned about basic functions in openCV: cv.imshow, cv.waitKey, cv.imwrite. And I also learned and became fond of bounding boxes, which bound contours and allow you to compute very useful properties of the contours!
+In general, I learned and became fluent with these functions in openCV: cv.imshow, cv.waitKey, cv.imwrite. And I also learned and became fond of bounding boxes, which bound contours and allow you to compute very useful properties of the contours!
 
-I am excited about all I have learned about python, openCV, GitHub, and VSCode, and think this project greatly enhanced my technical skills.
+I am excited about all I have learned about python, openCV, GitHub, and VSCode, and believe this project greatly enhanced my technical skills.
 
 
