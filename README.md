@@ -29,13 +29,14 @@ __PLEASE READ ON__ (keep scrolling) for Requirements, Installation, Usage, Files
 ## Usage
 
 1. Place your images in the `images/` folder.
-2. Run the `centralCrop.py` script to crop the image:
+2. Open the newly created folder "DALI-Data-Challenge" in VSCode or your IDE of choice, create a new terminal, and run the files directly in the terminal ("Python3 centralCrop.py" for example).
+3. Run the `centralCrop.py` script to crop the image:
 
     ```bash
     python centralCrop.py
     ```
 
-3. After cropping, run any of the barnacle counting scripts:
+4. After cropping, run any of the barnacle counting scripts:
 
     ```bash
     python countingBarnacles_circles.py
