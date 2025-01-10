@@ -29,7 +29,7 @@ __PLEASE READ ON__ (keep scrolling) for Requirements, Installation, Usage, Files
 ## Usage
 
 1. Place your images in the `images/` folder.
-2. Open the newly created folder "DALI-Data-Challenge" in VSCode or your IDE of choice, create a new terminal, and run the files directly in the terminal ("Python3 centralCrop.py" for example).
+2. Open the newly created folder "DALI-Data-Challenge" in VSCode or your IDE of choice, create a new terminal in the IDE, and run the files directly in the terminal ("Python3 centralCrop.py" for example).
 3. Run the `centralCrop.py` script to crop the image:
 
     ```bash
