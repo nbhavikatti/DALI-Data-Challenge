@@ -21,6 +21,10 @@ __PLEASE READ ON__ (keep scrolling) for Requirements, Installation, Usage, Files
     ```bash
     pip install opencv-python numpy
     ```
+    If the above is not working, try
+   ```bash
+   python3 -m pip install opencv-python numpy
+   ```
 
 ## Usage
 
